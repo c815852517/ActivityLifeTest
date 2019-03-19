@@ -5,13 +5,6 @@ This is the first Android test
 验证Activity的生命周期
 
 ## 实验重要代码
-package com.example.myapplication;
-
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-
-public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d("MainActivity","调用onDestroy()");
     }
-}
+
 
 ## 实验内容及步骤
 ### 一、启动Activity生命周期
